@@ -39,6 +39,7 @@ public class TransferServiceImpl implements TransferService {
 	}
 
 	/**
+	 * Initially it's only a template. For testing you need to comment this service call.
 	 * This is service will used to send email to the source and destination 
 	 * account numbers to inform about the transaction in their account.
 	 * @param transaction
